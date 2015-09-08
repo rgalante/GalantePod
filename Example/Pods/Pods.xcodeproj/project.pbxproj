@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0449CF5D14C0F1C0C9A8D022 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1728D1B67CFCACCFA8EA5511 /* ReplaceMe.m */; };
 		0BD32223F3367AC80B9874EB /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7090F6FE5CDD366DA9046F80 /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC76C8CD9731C2D494CE3E8 /* Pods-GlobantPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7343F1A52AE472348829C8 /* Pods-GlobantPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E56E03A53E3D2537FAAC877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD52196F8503217BAEADAB1 /* Foundation.framework */; };
 		51E198FC87FE353BC403957D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD52196F8503217BAEADAB1 /* Foundation.framework */; };
+		7A212D2E1B9F51960070C453 /* GLUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A212D2C1B9F51960070C453 /* GLUILabel.h */; };
+		7A212D2F1B9F51960070C453 /* GLUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A212D2D1B9F51960070C453 /* GLUILabel.m */; };
+		7A212D371B9F51A50070C453 /* GLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A212D301B9F51A50070C453 /* GLMacros.h */; };
+		7A212D381B9F51A50070C453 /* GLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A212D311B9F51A50070C453 /* GLLog.h */; };
+		7A212D391B9F51A50070C453 /* GLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A212D321B9F51A50070C453 /* GLLog.m */; };
+		7A212D3A1B9F51A50070C453 /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A212D331B9F51A50070C453 /* NSString+Utils.h */; };
+		7A212D3B1B9F51A50070C453 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A212D341B9F51A50070C453 /* NSString+Utils.m */; };
+		7A212D3C1B9F51A50070C453 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A212D351B9F51A50070C453 /* UIView+Additions.h */; };
+		7A212D3D1B9F51A50070C453 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A212D361B9F51A50070C453 /* UIView+Additions.m */; };
 		826330B9DC2178191B87D1C3 /* Pods-GlobantPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2259B712C391EEF603BBE6C3 /* Pods-GlobantPod_Tests-dummy.m */; };
 		92446A30A07B4666CCA2D47D /* Pods-GlobantPod_Tests-GlobantPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91602EB546B195C21DCA27C8 /* Pods-GlobantPod_Tests-GlobantPod-dummy.m */; };
 		D9AC8562B16D8F33E02CF488 /* GlobantPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E3176BEC7381D49C8398499 /* GlobantPod.bundle */; };
@@ -35,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1728D1B67CFCACCFA8EA5511 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		1D19FB6305986FBA06706673 /* GlobantPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlobantPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD52196F8503217BAEADAB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1E3176BEC7381D49C8398499 /* GlobantPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobantPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +54,15 @@
 		6FB4544E6CF319A861DCA861 /* Pods_GlobantPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobantPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7090F6FE5CDD366DA9046F80 /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobantPod_Tests-GlobantPod-umbrella.h"; sourceTree = "<group>"; };
 		7461AEC2CFD9F9C9993D351A /* Pods-GlobantPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobantPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A212D2C1B9F51960070C453 /* GLUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUILabel.h; sourceTree = "<group>"; };
+		7A212D2D1B9F51960070C453 /* GLUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLUILabel.m; sourceTree = "<group>"; };
+		7A212D301B9F51A50070C453 /* GLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMacros.h; sourceTree = "<group>"; };
+		7A212D311B9F51A50070C453 /* GLLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLog.h; sourceTree = "<group>"; };
+		7A212D321B9F51A50070C453 /* GLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLog.m; sourceTree = "<group>"; };
+		7A212D331B9F51A50070C453 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		7A212D341B9F51A50070C453 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		7A212D351B9F51A50070C453 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		7A212D361B9F51A50070C453 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		8411FC31BD27ECB5BD31666A /* Pods-GlobantPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlobantPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		86774F49C4D344E7778A8A38 /* Pods-GlobantPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlobantPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		8D5E379CA94F89F1BD381ED5 /* Pods-GlobantPod_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobantPod_Tests-environment.h"; sourceTree = "<group>"; };
@@ -141,7 +157,15 @@
 		6F5C055226C4C9FA97DFABF6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1728D1B67CFCACCFA8EA5511 /* ReplaceMe.m */,
+				7A212D301B9F51A50070C453 /* GLMacros.h */,
+				7A212D311B9F51A50070C453 /* GLLog.h */,
+				7A212D321B9F51A50070C453 /* GLLog.m */,
+				7A212D331B9F51A50070C453 /* NSString+Utils.h */,
+				7A212D341B9F51A50070C453 /* NSString+Utils.m */,
+				7A212D351B9F51A50070C453 /* UIView+Additions.h */,
+				7A212D361B9F51A50070C453 /* UIView+Additions.m */,
+				7A212D2C1B9F51960070C453 /* GLUILabel.h */,
+				7A212D2D1B9F51960070C453 /* GLUILabel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -216,7 +240,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A212D371B9F51A50070C453 /* GLMacros.h in Headers */,
+				7A212D2E1B9F51960070C453 /* GLUILabel.h in Headers */,
+				7A212D3A1B9F51A50070C453 /* NSString+Utils.h in Headers */,
+				7A212D381B9F51A50070C453 /* GLLog.h in Headers */,
 				3DC76C8CD9731C2D494CE3E8 /* Pods-GlobantPod_Tests-umbrella.h in Headers */,
+				7A212D3C1B9F51A50070C453 /* UIView+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +356,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A212D391B9F51A50070C453 /* GLLog.m in Sources */,
 				826330B9DC2178191B87D1C3 /* Pods-GlobantPod_Tests-dummy.m in Sources */,
+				7A212D2F1B9F51960070C453 /* GLUILabel.m in Sources */,
+				7A212D3D1B9F51A50070C453 /* UIView+Additions.m in Sources */,
+				7A212D3B1B9F51A50070C453 /* NSString+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92446A30A07B4666CCA2D47D /* Pods-GlobantPod_Tests-GlobantPod-dummy.m in Sources */,
-				0449CF5D14C0F1C0C9A8D022 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

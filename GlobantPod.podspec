@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint GlobantPod.podspec' to ensure this is a
+# Be sure to run `pod lib lint GalantePod.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,23 +7,22 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "GlobantPod"
+  s.name             = "GalantePod"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GlobantPod."
+  s.summary          = "A short description of GalantePod."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "A longer description for GalantePod is needed here."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/GlobantPod"
+  s.homepage         = "https://github.com/rgalante/GalantePod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Rafael Galante" => "rafael.galante@globant.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/GlobantPod.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/rgalante/GalantePod.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -31,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'GlobantPod' => ['Pod/Assets/*.png']
+    'GalantePod' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
