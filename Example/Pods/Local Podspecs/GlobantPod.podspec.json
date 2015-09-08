@@ -1,0 +1,25 @@
+{
+  "name": "GlobantPod",
+  "version": "0.1.0",
+  "summary": "A short description of GlobantPod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GlobantPod",
+  "license": "MIT",
+  "authors": {
+    "Rafael Galante": "rafael.galante@globant.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GlobantPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "GlobantPod": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

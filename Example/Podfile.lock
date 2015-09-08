@@ -1,0 +1,14 @@
+PODS:
+  - GlobantPod (0.1.0)
+
+DEPENDENCIES:
+  - GlobantPod (from `../`)
+
+EXTERNAL SOURCES:
+  GlobantPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GlobantPod: 26f93f467fa6fe46cd15f2ad1d46bb07c88106b6
+
+COCOAPODS: 0.36.3

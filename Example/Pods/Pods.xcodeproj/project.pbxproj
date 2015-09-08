@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0449CF5D14C0F1C0C9A8D022 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1728D1B67CFCACCFA8EA5511 /* ReplaceMe.m */; };
+		0BD32223F3367AC80B9874EB /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7090F6FE5CDD366DA9046F80 /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC76C8CD9731C2D494CE3E8 /* Pods-GlobantPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7343F1A52AE472348829C8 /* Pods-GlobantPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E56E03A53E3D2537FAAC877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD52196F8503217BAEADAB1 /* Foundation.framework */; };
+		51E198FC87FE353BC403957D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD52196F8503217BAEADAB1 /* Foundation.framework */; };
+		826330B9DC2178191B87D1C3 /* Pods-GlobantPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2259B712C391EEF603BBE6C3 /* Pods-GlobantPod_Tests-dummy.m */; };
+		92446A30A07B4666CCA2D47D /* Pods-GlobantPod_Tests-GlobantPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91602EB546B195C21DCA27C8 /* Pods-GlobantPod_Tests-GlobantPod-dummy.m */; };
+		D9AC8562B16D8F33E02CF488 /* GlobantPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E3176BEC7381D49C8398499 /* GlobantPod.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27B9F96C39046965B5BF21EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA17613827729A6AB83E639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092587A43E7C7042304FD697;
+			remoteInfo = "Pods-GlobantPod_Tests-GlobantPod-GlobantPod";
+		};
+		4166D6975AB3D684AF0D4285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA17613827729A6AB83E639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C1FA879D91BFDB68625FC2;
+			remoteInfo = "Pods-GlobantPod_Tests-GlobantPod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1728D1B67CFCACCFA8EA5511 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		1D19FB6305986FBA06706673 /* GlobantPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlobantPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD52196F8503217BAEADAB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1E3176BEC7381D49C8398499 /* GlobantPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobantPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2259B712C391EEF603BBE6C3 /* Pods-GlobantPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlobantPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		27CF98D61DBE4B71F2B2C978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D55562C4DFA5FCF9E60C047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531323D3FCCF83E27C513EDB /* Pods-GlobantPod_Tests-GlobantPod-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobantPod_Tests-GlobantPod-Private.xcconfig"; sourceTree = "<group>"; };
+		57139C0959347560B2E14B14 /* Pods-GlobantPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GlobantPod_Tests.modulemap"; sourceTree = "<group>"; };
+		6FB4544E6CF319A861DCA861 /* Pods_GlobantPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobantPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7090F6FE5CDD366DA9046F80 /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobantPod_Tests-GlobantPod-umbrella.h"; sourceTree = "<group>"; };
+		7461AEC2CFD9F9C9993D351A /* Pods-GlobantPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobantPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8411FC31BD27ECB5BD31666A /* Pods-GlobantPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlobantPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		86774F49C4D344E7778A8A38 /* Pods-GlobantPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlobantPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		8D5E379CA94F89F1BD381ED5 /* Pods-GlobantPod_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobantPod_Tests-environment.h"; sourceTree = "<group>"; };
+		91602EB546B195C21DCA27C8 /* Pods-GlobantPod_Tests-GlobantPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlobantPod_Tests-GlobantPod-dummy.m"; sourceTree = "<group>"; };
+		9685B74AC8A407889AD6A3A7 /* Pods-GlobantPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobantPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8DF7995355FA280971F5A56 /* Pods-GlobantPod_Tests-GlobantPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobantPod_Tests-GlobantPod.xcconfig"; sourceTree = "<group>"; };
+		ABD879CA04DBE6CD45CA3CB9 /* Pods-GlobantPod_Tests-GlobantPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GlobantPod_Tests-GlobantPod.modulemap"; sourceTree = "<group>"; };
+		C0B4DFDD795867480BC05922 /* Pods-GlobantPod_Tests-GlobantPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobantPod_Tests-GlobantPod-prefix.pch"; sourceTree = "<group>"; };
+		CB7343F1A52AE472348829C8 /* Pods-GlobantPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobantPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CBF76F067D158E3EEFD2865B /* Pods-GlobantPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobantPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D27C4560F8898A4D835A287E /* Pods-GlobantPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobantPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA1DEDB24438320A3971C3A3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C1C4F5E6164C840BEC61D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E198FC87FE353BC403957D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4EDE405B50F06A0B8E5222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E56E03A53E3D2537FAAC877 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526B2C4DFC48DBED3A941E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A66568D9B2D8858C42325E7 = {
+			isa = PBXGroup;
+			children = (
+				EA1DEDB24438320A3971C3A3 /* Podfile */,
+				5514B6A506074C2EBDFC94D3 /* Development Pods */,
+				DDCA0C8332AF272FCF6195AE /* Frameworks */,
+				BC70C969BABBE155030F147A /* Products */,
+				25BA8D9E7C0FDEFAF6EE0967 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		22EC2E1A5F4C9E4E7E00940E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F5C055226C4C9FA97DFABF6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		25BA8D9E7C0FDEFAF6EE0967 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E728B2C1062AD186BFF816BC /* Pods-GlobantPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		517C38C482DADFFC163EE2ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CF98D61DBE4B71F2B2C978 /* Info.plist */,
+				ABD879CA04DBE6CD45CA3CB9 /* Pods-GlobantPod_Tests-GlobantPod.modulemap */,
+				A8DF7995355FA280971F5A56 /* Pods-GlobantPod_Tests-GlobantPod.xcconfig */,
+				531323D3FCCF83E27C513EDB /* Pods-GlobantPod_Tests-GlobantPod-Private.xcconfig */,
+				91602EB546B195C21DCA27C8 /* Pods-GlobantPod_Tests-GlobantPod-dummy.m */,
+				C0B4DFDD795867480BC05922 /* Pods-GlobantPod_Tests-GlobantPod-prefix.pch */,
+				7090F6FE5CDD366DA9046F80 /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-GlobantPod_Tests-GlobantPod";
+			sourceTree = "<group>";
+		};
+		5514B6A506074C2EBDFC94D3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D13A44E76154BDBAB7580 /* GlobantPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6F5C055226C4C9FA97DFABF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1728D1B67CFCACCFA8EA5511 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ABBA95711D1148E5534CF09F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DD52196F8503217BAEADAB1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BC70C969BABBE155030F147A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E3176BEC7381D49C8398499 /* GlobantPod.bundle */,
+				1D19FB6305986FBA06706673 /* GlobantPod.framework */,
+				6FB4544E6CF319A861DCA861 /* Pods_GlobantPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCA0C8332AF272FCF6195AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA95711D1148E5534CF09F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E728B2C1062AD186BFF816BC /* Pods-GlobantPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D55562C4DFA5FCF9E60C047 /* Info.plist */,
+				57139C0959347560B2E14B14 /* Pods-GlobantPod_Tests.modulemap */,
+				7461AEC2CFD9F9C9993D351A /* Pods-GlobantPod_Tests-acknowledgements.markdown */,
+				CBF76F067D158E3EEFD2865B /* Pods-GlobantPod_Tests-acknowledgements.plist */,
+				2259B712C391EEF603BBE6C3 /* Pods-GlobantPod_Tests-dummy.m */,
+				8D5E379CA94F89F1BD381ED5 /* Pods-GlobantPod_Tests-environment.h */,
+				8411FC31BD27ECB5BD31666A /* Pods-GlobantPod_Tests-frameworks.sh */,
+				86774F49C4D344E7778A8A38 /* Pods-GlobantPod_Tests-resources.sh */,
+				CB7343F1A52AE472348829C8 /* Pods-GlobantPod_Tests-umbrella.h */,
+				9685B74AC8A407889AD6A3A7 /* Pods-GlobantPod_Tests.debug.xcconfig */,
+				D27C4560F8898A4D835A287E /* Pods-GlobantPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-GlobantPod_Tests";
+			path = "Target Support Files/Pods-GlobantPod_Tests";
+			sourceTree = "<group>";
+		};
+		FC0D13A44E76154BDBAB7580 /* GlobantPod */ = {
+			isa = PBXGroup;
+			children = (
+				22EC2E1A5F4C9E4E7E00940E /* Pod */,
+				517C38C482DADFFC163EE2ED /* Support Files */,
+			);
+			name = GlobantPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EB1F2BF3DAD623B22259EA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD32223F3367AC80B9874EB /* Pods-GlobantPod_Tests-GlobantPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F79986FCF84F90702539E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC76C8CD9731C2D494CE3E8 /* Pods-GlobantPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		092587A43E7C7042304FD697 /* Pods-GlobantPod_Tests-GlobantPod-GlobantPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C657BD0AE54B1934C08F8CC /* Build configuration list for PBXNativeTarget "Pods-GlobantPod_Tests-GlobantPod-GlobantPod" */;
+			buildPhases = (
+				4BEA27B7E46EBA51DBD9ED7F /* Sources */,
+				526B2C4DFC48DBED3A941E99 /* Frameworks */,
+				E265F39F2A56E3EB5E46BC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GlobantPod_Tests-GlobantPod-GlobantPod";
+			productName = "Pods-GlobantPod_Tests-GlobantPod-GlobantPod";
+			productReference = 1E3176BEC7381D49C8398499 /* GlobantPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2600AF620267E79AD75B7AA6 /* Pods-GlobantPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145C507B3DC5E519AF1DE8C2 /* Build configuration list for PBXNativeTarget "Pods-GlobantPod_Tests" */;
+			buildPhases = (
+				04AEC60D4C8338137B74B0F7 /* Sources */,
+				2C1C4F5E6164C840BEC61D9E /* Frameworks */,
+				C8F79986FCF84F90702539E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCB30ADBEFC690933E7FCE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-GlobantPod_Tests";
+			productName = "Pods-GlobantPod_Tests";
+			productReference = 6FB4544E6CF319A861DCA861 /* Pods_GlobantPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65C1FA879D91BFDB68625FC2 /* Pods-GlobantPod_Tests-GlobantPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD44900E311F742971523A43 /* Build configuration list for PBXNativeTarget "Pods-GlobantPod_Tests-GlobantPod" */;
+			buildPhases = (
+				45B1E1401F55931C15CBC8B5 /* Sources */,
+				3E4EDE405B50F06A0B8E5222 /* Frameworks */,
+				5BD14BA8D7D498CC0616DAD2 /* Resources */,
+				9EB1F2BF3DAD623B22259EA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50370A5529423452B244E5E /* PBXTargetDependency */,
+			);
+			name = "Pods-GlobantPod_Tests-GlobantPod";
+			productName = "Pods-GlobantPod_Tests-GlobantPod";
+			productReference = 1D19FB6305986FBA06706673 /* GlobantPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA17613827729A6AB83E639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B21D46579ACF3052D8B95425 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A66568D9B2D8858C42325E7;
+			productRefGroup = BC70C969BABBE155030F147A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2600AF620267E79AD75B7AA6 /* Pods-GlobantPod_Tests */,
+				65C1FA879D91BFDB68625FC2 /* Pods-GlobantPod_Tests-GlobantPod */,
+				092587A43E7C7042304FD697 /* Pods-GlobantPod_Tests-GlobantPod-GlobantPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BD14BA8D7D498CC0616DAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AC8562B16D8F33E02CF488 /* GlobantPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E265F39F2A56E3EB5E46BC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AEC60D4C8338137B74B0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826330B9DC2178191B87D1C3 /* Pods-GlobantPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B1E1401F55931C15CBC8B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92446A30A07B4666CCA2D47D /* Pods-GlobantPod_Tests-GlobantPod-dummy.m in Sources */,
+				0449CF5D14C0F1C0C9A8D022 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEA27B7E46EBA51DBD9ED7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFCB30ADBEFC690933E7FCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GlobantPod_Tests-GlobantPod";
+			target = 65C1FA879D91BFDB68625FC2 /* Pods-GlobantPod_Tests-GlobantPod */;
+			targetProxy = 4166D6975AB3D684AF0D4285 /* PBXContainerItemProxy */;
+		};
+		E50370A5529423452B244E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GlobantPod_Tests-GlobantPod-GlobantPod";
+			target = 092587A43E7C7042304FD697 /* Pods-GlobantPod_Tests-GlobantPod-GlobantPod */;
+			targetProxy = 27B9F96C39046965B5BF21EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CFC925F491C1530BDE0005A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-GlobantPod_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GlobantPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3798FB54FC3679DD1842446C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531323D3FCCF83E27C513EDB /* Pods-GlobantPod_Tests-GlobantPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GlobantPod_Tests-GlobantPod/Pods-GlobantPod_Tests-GlobantPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobantPod_Tests-GlobantPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobantPod_Tests-GlobantPod/Pods-GlobantPod_Tests-GlobantPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GlobantPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BF6E140050603CDE9F90A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F3660D5067B4A9129E07D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-GlobantPod_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GlobantPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B066F5707D7392FBC2FBFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0CA18EDF9F590DA512B62C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9685B74AC8A407889AD6A3A7 /* Pods-GlobantPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobantPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobantPod_Tests/Pods-GlobantPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GlobantPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D15F3E9C1A7015E9BB55CE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27C4560F8898A4D835A287E /* Pods-GlobantPod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobantPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobantPod_Tests/Pods-GlobantPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GlobantPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA8A8943764138A7A124700D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531323D3FCCF83E27C513EDB /* Pods-GlobantPod_Tests-GlobantPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GlobantPod_Tests-GlobantPod/Pods-GlobantPod_Tests-GlobantPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobantPod_Tests-GlobantPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobantPod_Tests-GlobantPod/Pods-GlobantPod_Tests-GlobantPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GlobantPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		145C507B3DC5E519AF1DE8C2 /* Build configuration list for PBXNativeTarget "Pods-GlobantPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CA18EDF9F590DA512B62C3 /* Debug */,
+				D15F3E9C1A7015E9BB55CE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C657BD0AE54B1934C08F8CC /* Build configuration list for PBXNativeTarget "Pods-GlobantPod_Tests-GlobantPod-GlobantPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFC925F491C1530BDE0005A /* Debug */,
+				9F3660D5067B4A9129E07D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD44900E311F742971523A43 /* Build configuration list for PBXNativeTarget "Pods-GlobantPod_Tests-GlobantPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8A8943764138A7A124700D /* Debug */,
+				3798FB54FC3679DD1842446C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B21D46579ACF3052D8B95425 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B066F5707D7392FBC2FBFFB8 /* Debug */,
+				8BF6E140050603CDE9F90A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA17613827729A6AB83E639 /* Project object */;
+}

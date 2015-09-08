@@ -1,0 +1,6 @@
+framework module GlobantPod {
+  umbrella header "Pods-GlobantPod_Tests-GlobantPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
