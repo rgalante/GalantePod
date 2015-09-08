@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "GalantePod"
+  s.name             = "GlobantPod"
   s.version          = "0.1.0"
   s.summary          = "A short description of GalantePod."
 
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'GalantePod' => ['Pod/Assets/*.png']
+    'GlobantPod' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

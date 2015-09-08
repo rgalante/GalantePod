@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GlobantPod: 26f93f467fa6fe46cd15f2ad1d46bb07c88106b6
+  GlobantPod: c670ad66b022ad14c67511cecb7901d9a3c90a29
 
 COCOAPODS: 0.36.3
